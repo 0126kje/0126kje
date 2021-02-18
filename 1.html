@@ -3,6 +3,38 @@
 <head>
  <title>WEB1-HTML</title>
  <meta charset="utf-8">
+ <style>
+ body {
+   margin:0;
+ }
+  a {
+    color:black;
+    text-decoration:none;
+  }
+  h1 {
+    font-size:45px;
+    text-align: center;
+    border-bottom: 1px solid gray;
+    margin:0;
+    padding:20px;
+  }
+  ol {
+    border-right:1px solid gray;
+    width:100px;
+    margin:0;
+    padding:20px;
+  }
+  #grid{
+    display:grid;
+    grid-template-columns: 150px 1fr;
+  }
+  #grid ol{
+    padding-left:33px;
+  }
+  #grid #article{
+    padding-left:25px;
+  }
+  </style>
  <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-KWT2JG8EWM"></script>
 <script>
@@ -15,49 +47,54 @@
 </head>
 <body>
   <h1><a href="index.html">WEB</a></h1>
+<div id="grid">
   <ol>
    <li><strong><a href="1.html">HTML</a></strong></li>
-   <li><strong><a href=2.html>CSS</a></strong></li>
-   <li><strong><a href=3.html>JavaScript</a></strong></li>
+   <li><strong><a href="2.html">CSS</a></strong></li>
+   <li><strong><a href="3.html">JavaScript</a></strong></li>
   </ol>
- <h2>HTML</h2>
- <p><iframe width="956" height="538" src="https://www.youtube.com/embed/MLXlXCwA0T4?list=PLuHgQVnccGMDZP7FJ_ZsUrdCGH68ppvPb" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
-  <p><a href="https://en.wikipedia.org/wiki/World_Wide_Web"
-   target="_blank" title="html5 speicification">Hypertext Markup Language (HTML)</a> is the standard markup language for <strong>documents designed to be displayed in a <u>web browser.</u></strong> It can be assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript.
-  <img src="coding.jpg" width="100%">
-  </p>
-  <p><p style="margin-top:45px;">Web browsers receive HTML documents from a web server or from local storage and render the documents into multimedia web pages. HTML describes the structure of a web page semantically and originally included cues for the appearance of the document.</p>
-  <p><div id="disqus_thread"></div>
-  <script>
-    /**
-    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
-    /*
-    var disqus_config = function () {
-    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-    };
-    */
-    (function() { // DON'T EDIT BELOW THIS LINE
-    var d = document, s = d.createElement('script');
-    s.src = 'https://web1-nmrl54svku.disqus.com/embed.js';
-    s.setAttribute('data-timestamp', +new Date());
-    (d.head || d.body).appendChild(s);
+  <div id="article">
+    <h2>HTML</h2>
+     <p><iframe width="956" height="538" src="https://www.youtube.com/embed/MLXlXCwA0T4?list=PLuHgQVnccGMDZP7FJ_ZsUrdCGH68ppvPb" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+      <p><a href="https://en.wikipedia.org/wiki/World_Wide_Web"
+       target="_blank" title="html5 speicification">Hypertext Markup Language (HTML)</a> is the standard markup language for <strong>documents designed to be displayed in a <u>web browser.</u></strong> It can be assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript.
+      <img src="coding.jpg" width="956" height="538">
+      </p>
+      <p><p style="margin-top:45px;">Web browsers receive HTML documents from a web server or from local storage and render the documents into multimedia web pages. HTML describes the structure of a web page semantically and originally included cues for the appearance of the document.</p>
+      <p>
+      <div id="disqus_thread"></div>
+      <script>
+        /**
+        *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+        *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+        /*
+        var disqus_config = function () {
+        this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+        };
+        */
+        (function() { // DON'T EDIT BELOW THIS LINE
+        var d = document, s = d.createElement('script');
+        s.src = 'https://web1-nmrl54svku.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+        })();
+       </script>
+       <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript></p>
+       <!--Start of Tawk.to Script-->
+    <script type="text/javascript">
+    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+    (function(){
+    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+    s1.async=true;
+    s1.src='https://embed.tawk.to/602bfaf3918aa261273f759a/1eulsoifl';
+    s1.charset='UTF-8';
+    s1.setAttribute('crossorigin','*');
+    s0.parentNode.insertBefore(s1,s0);
     })();
-   </script>
-   <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript></p>
-   <!--Start of Tawk.to Script-->
-<script type="text/javascript">
-var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-(function(){
-var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-s1.async=true;
-s1.src='https://embed.tawk.to/602bfaf3918aa261273f759a/1eulsoifl';
-s1.charset='UTF-8';
-s1.setAttribute('crossorigin','*');
-s0.parentNode.insertBefore(s1,s0);
-})();
-</script>
-<!--End of Tawk.to Script-->
+    </script>
+    <!--End of Tawk.to Script-->
+  </div>
+</div>
 </body>
 </html>
